@@ -8,15 +8,8 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "lib": [
-      "ES2020"
-    ]
+    "lib": ["ES2020"]
   },
-  "include": [
-    "./scripts/*",
-    "./test/*"
-  ],
-  "files": [
-    "./hardhat.config.ts"
-  ]
+  "include": ["./scripts/*", "./test/*"],
+  "files": ["./hardhat.config.ts"]
 }
